@@ -26,7 +26,7 @@ console.log("<<<<<<<< Get array of all heights only >>>>>>>>");
 let totalHeight = characters.reduce(function (sum, height) {
   return sum + height[1]
   
-},2);
+},0);
 
 console.log(totalHeight)
 
@@ -46,7 +46,6 @@ let genderFilter = characters.filter(function(value){
 
 console.log(genderFilter)
 
-console.log("<<<<<<<< Sort by mass >>>>>>>>");
 
 let massSort = characters.sort(function(a,b){
   return a[3] - b[3];
