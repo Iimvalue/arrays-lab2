@@ -125,6 +125,10 @@ let countGPA = students.filter(function(arr){
 
 console.log(countGPA);
  
+let GPAmoreThan80 = countGPA.filter(function(gpa){
+    return gpa > 80
+})
 
 
+console.log(GPAmoreThan80)
 
